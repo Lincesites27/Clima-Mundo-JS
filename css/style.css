@@ -79,6 +79,11 @@ body{
     color: #06283Ddc;
     font-size: 24px;
 }
+.search-box button:hover i{
+    color: #fff;
+    
+}
+
 
 .weather-box{
     text-align: center;
@@ -119,6 +124,7 @@ body{
 
 .weather-details .humidity,
 .weather-details .wind{
+    z-index: 10;
     display: flex;
     align-items: center;
     width: 50%;
@@ -186,3 +192,7 @@ body{
 #icon-api img{
     width: 80px;
 }
+
+
+
+
